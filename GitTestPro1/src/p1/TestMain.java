@@ -6,5 +6,11 @@ public class TestMain {
 		System.out.println("test ");
 		
 		System.out.println("new changes ");
+		
+		String names[] = {"mike","jenny"};
+		
+		for (String name : names) {
+			System.out.println(name);
+		}
 	}
 }

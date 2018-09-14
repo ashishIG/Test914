@@ -6,5 +6,12 @@ public class TestMain {
 		System.out.println("test ");
 		
 		System.out.println("new changes ");
+		
+		String names[] = {"Ramesh","Suresh","Mahesh"};
+		
+		for(int i =0;i<names.length;i++)
+		{
+			System.out.println(" --->> "+names[i]);
+		}
 	}
 }

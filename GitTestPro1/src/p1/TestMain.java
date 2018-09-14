@@ -7,10 +7,13 @@ public class TestMain {
 		
 		System.out.println("new changes ");
 		
+
 		String names[] = {"mike","jenny","cinthia"};
 		
 		for (String name : names) {
 			System.out.println(name);
+
 		}
+	
 	}
 }

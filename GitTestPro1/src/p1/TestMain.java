@@ -1,5 +1,8 @@
 package p1;
 
+import java.io.File;
+import java.io.PrintWriter;
+
 public class TestMain {
 
 	public static void main(String[] args) {
@@ -14,6 +17,14 @@ public class TestMain {
 			System.out.println(name);
 
 		}
-	
+		try{
+			File f = new File("abc.txt");
+			PrintWriter pw = new PrintWriter(f);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
 	}
 }
